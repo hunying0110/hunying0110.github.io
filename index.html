@@ -13,13 +13,29 @@
     <p>遊戲預覽</p>
     <p><img src="img/2048.jpg" width="500"></p>
     <p style="color:greenyellow">下載按此⭣</p>
-    <a href="img/Rick_Astley_-_Never_Gonna_Give_You_Up_.mp3">
-    <img src="img/Google-Play.jpg" width="300">
+    <audio id="PLAY">
+        <source src="img/Rick_Astley_-_Never_Gonna_Give_You_Up_.mp3">
+    </audio>
+    <img onclick="playAudio()" src="img/Google-Play.jpg" width="300">
+    <script>
+        function playAudio() { 
+            var x = document.getElementById("PLAY"); 
+            x.play(); 
+        } 
+    </script>
 
-</a>
-<a href="img/Josh Hutcherson  Whistle.mp3">
-    <img src="img/App Store.png" width="300">
-</a>
+<audio id="pLAY">
+    <source src="img/Josh Hutcherson  Whistle.mp3">
+</audio>
+
+    <img onclick="PlayAudio()" src="img/App Store.png" width="300">
+    <script>
+        function PlayAudio() { 
+            var x = document.getElementById("pLAY"); 
+            x.play(); 
+        } 
+    </script>
+
         
     
     
